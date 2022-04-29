@@ -1,11 +1,11 @@
 {
-  "name": "vue3-peach-ui",
-  "version": "0.0.3",
+  "name": "peach-h-ui",
+  "version": "0.0.4",
   "files": [
     "dist/lib/*"
   ],
-  "main": "dist/lib/peach.js",
-  "module": "dist/lib/peach.esm.js",
+  "main": "dist/lib/peach-h-ui.js",
+  "module": "dist/lib/peach-h-ui.esm.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
@@ -19,6 +19,16 @@
     "prismjs": "1.21.0",
     "vue": "3.0.0",
     "vue-router": "4.0.0-beta.3"
+  },
+  "keywords": [
+    "Component",
+    "UI",
+    "Vue3"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "3.0.0",
